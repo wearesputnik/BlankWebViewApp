@@ -17,7 +17,6 @@ namespace TestWebView
             InitializeComponent();
 
             var source = new HtmlWebViewSource();
-            var urlSource = new UrlWebViewSource();
             source.BaseUrl = DependencyService.Get<IBaseUrl>().Get();
             source.Html = @"<html>
                                 <head>
