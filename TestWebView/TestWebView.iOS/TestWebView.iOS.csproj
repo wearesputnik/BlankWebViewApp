@@ -95,6 +95,7 @@
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="BaseUrl_iOS.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
@@ -156,5 +157,12 @@
       <Project>{4EAC019C-E767-4DFA-9A76-E7E17CC9DB83}</Project>
       <Name>TestWebView</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets.xcassets\flag_Belarus.imageset\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\default.css" />
+    <BundleResource Include="Resources\bundle.js" />
   </ItemGroup>
 </Project>
